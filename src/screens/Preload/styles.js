@@ -1,8 +1,10 @@
 import React from 'react';
 import styled from 'styled-components/native';
 
+
+
 export const Container = styled.SafeAreaView`
-    background-color : #f000;
+    background-color : #fff8dc;
     flex: 1;
     justify-content: center;
     align-items: center;

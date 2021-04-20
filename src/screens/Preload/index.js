@@ -4,6 +4,8 @@ import AsyncStorage from '@react-native-community/async-storage';
 import { useNavigation } from "@react-navigation/native";
 
 
+import AppLogo from '../../assets/Logo_3.svg'
+
 export default () => {
 
     const navigation = useNavigation();
@@ -17,7 +19,7 @@ export default () => {
                 // validar token de admmin
             }
             else {
-               navigation.navigate('SignIn')
+               //navigation.navigate('SignIn')
             }
         }
 
@@ -28,6 +30,7 @@ export default () => {
     
     return (
         <Container>
+            <AppLogo width="100%" height="160" />
             <LoadingIcon size="large" color="#FFFFFF" />
         </Container>
     );
