@@ -2,7 +2,8 @@ import React from 'react';
 import { createStackNavigator } from "@react-navigation/stack";
 
 import Preload from '../screens/Preload';
-import Main from '../screens/Main';
+import SignIn from '../screens/SignIn';
+import SignUp from '../screens/SignUp';
 const Stack = createStackNavigator();
 
 export default () => (
@@ -13,6 +14,7 @@ export default () => (
         }}
     >
         <Stack.Screen name="Preload" component={Preload} />
-        <Stack.Screen name="Main" component={Main} />
+        <Stack.Screen name="SignIn" component={SignIn} />
+        <Stack.Screen name="SignUp" component={SignUp} />
     </Stack.Navigator>
 );
