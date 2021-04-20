@@ -19,7 +19,7 @@ export default () => {
                 // validar token de admmin
             }
             else {
-               //navigation.navigate('SignIn')
+               navigation.navigate('SignIn')
             }
         }
 
